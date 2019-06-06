@@ -10,7 +10,7 @@ function App() {
       <h3> Podcast Directory</h3>
       {LCWTM.map(data => {
         return (
-          <div>
+          <div key={data.text}>
             <a href={data.url}> Link : {data.url}</a>
             <p>Broadcast Date : {data.text}</p>
           </div>
