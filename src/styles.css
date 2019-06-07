@@ -64,7 +64,10 @@ body {
   background-color: #fff;
 }
 #section-player{
-  padding-top:40px'
+  padding-top:40px;
+}
+#LCWTM-img,#JSJ-img{
+  width:31%;;
 }
 
 [tabindex="-1"]:focus {
